@@ -1,0 +1,31 @@
+# Large spatial data and temporary files
+
+data/raw/
+data/interim/
+data/derived/
+
+# Geospatial formats
+
+*.gpkg
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.sbn
+*.sbx
+
+# Python
+
+**pycache**/
+*.py[cod]
+
+# QGIS and local editor files
+
+*.qgz
+*.qgs~
+.vscode/
+.DS_Store
+Thumbs.db
